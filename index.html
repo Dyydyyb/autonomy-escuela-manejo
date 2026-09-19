@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autonomy Escuela de Manejo | Cursos en Córdoba - Servicio Puerta a Puerta</title>
+  <meta name="description" content="Escuela de Manejo Autonomy en Córdoba. Más de 13 años formando conductores independientes. Vehículos doble comando, seguro escuela y servicio puerta a puerta. Consultá al 3516544950.">
+  <meta name="keywords" content="escuela de manejo cordoba, aprender a manejar cordoba, cursos de manejo cordoba, autonomy escuela de manejo, rafael nuñez 3593, carnet de conducir cpc">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Autonomy Escuela de Manejo • 13 Años Formando Conductores en Córdoba">
+  <meta property="og:description" content="Aprendé a manejar con verdadera autonomía y confianza. Vehículos doble comando, servicio puerta a puerta y acompañamiento a CPC.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/regla-conductor.png">
+
+  <!-- Fuentes Google Modernas -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+
+  <!-- 1. BARRA SUPERIOR DE AVISOS Y HORARIOS -->
+  <div class="top-notice-bar">
+    <div class="container top-notice-content">
+      <div class="notice-items">
+        <span class="notice-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          <strong>Horarios:</strong> Lun a Vie 9:00 a 20:00 hs | Sáb 9:00 a 13:00 hs
+        </span>
+        <span class="notice-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          Rafael Núñez 3593, Córdoba
+        </span>
+        <span class="notice-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          WhatsApp: <strong>3516544950</strong>
+        </span>
+      </div>
+      <div class="notice-action">
+        <a href="#asistente">
+          <span>Coordinar Turno</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. HEADER ESTILO CALLE CON LÍNEAS BLANCAS EN EL MEDIO HORIZONTALMENTE -->
+  <header class="street-header" id="headerCalle">
+    <div class="street-lane-divider" aria-hidden="true"></div>
+    <div class="street-roadbed">
+      <div class="container header-container">
+        
+        <!-- Logo Autonomy -->
+        <a href="#inicio" class="brand-wrapper" title="Autonomy Escuela de Manejo">
+          <img src="assets/logo.png" alt="Autonomy Escuela de Manejo Logo" class="brand-logo-img">
+          <div class="brand-text-block">
+            <span class="brand-name">AUTONOMY</span>
+            <span class="brand-tagline">Escuela de Manejo</span>
+          </div>
+        </a>
+
+        <!-- Menú de Navegación -->
+        <nav>
+          <ul class="nav-menu" id="mainNavMenu">
+            <li><a href="#inicio" class="nav-link">Inicio</a></li>
+            <li><a href="#palanca" class="nav-link">Simulador Palanca</a></li>
+            <li><a href="#info-importante" class="nav-link highlight">¿Por qué elegirnos?</a></li>
+            <li><a href="#cursos" class="nav-link">Cursos</a></li>
+            <li><a href="#puerta-a-puerta" class="nav-link">Puerta a Puerta</a></li>
+            <li><a href="#ubicacion" class="nav-link">Ubicación</a></li>
+            <li><a href="#asistente" class="nav-link">Asistente</a></li>
+          </ul>
+        </nav>
+
+        <!-- Botón Contacto WhatsApp Calle -->
+        <div class="header-actions">
+          <a href="https://wa.me/5493516544950?text=Hola%20Autonomy!%20Quisiera%20consultar%20por%20clases%20de%20manejo" target="_blank" rel="noopener noreferrer" class="btn-street-wa">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+            <span class="text-desktop">3516544950</span>
+            <span class="text-mobile">WhatsApp</span>
+          </a>
+          <button class="mobile-toggle" id="mobileMenuToggle" aria-label="Abrir menú">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- 3. HERO SECTION: FOTO DIFUMINADA CON INFORMACIÓN INTEGRADA -->
+  <section class="hero-section hero-overlay-showcase" id="inicio">
+    <!-- Fondo con la foto difuminada y velo de contraste -->
+    <div class="hero-backdrop-layer">
+      <img src="assets/hero-carnet.png" alt="Escuela de Manejo Autonomy Córdoba" class="hero-blurred-bg">
+      <div class="hero-dim-overlay"></div>
+    </div>
+
+    <!-- Contenido e Información del Hero en primer plano -->
+    <div class="container hero-front-content">
+      <div class="hero-info-card">
+        <div class="hero-badges-row">
+          <span class="badge badge-red">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            13 Años Formando Conductores
+          </span>
+          <span class="badge badge-light-solid">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Córdoba Capital • Rafael Núñez 3593
+          </span>
+          <span class="badge badge-light-solid">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+            Cursos y Clases de Manejo
+          </span>
+        </div>
+
+        <h1 class="hero-headline">
+          Tomá las riendas y convertite en tu <span class="text-red-highlight">propio chofer</span>
+        </h1>
+
+        <p class="hero-description">
+          Es momento de que dejes de postergarlo y aprendas a ser una persona independiente. 
+          No pidas más autos por app ni dependas de nadie: respirá libertad y aprendé a tu ritmo con instructores pacientes en vehículos doble comando.
+        </p>
+
+        <div class="hero-perks-grid">
+          <div class="hero-perk-item">
+            <span class="perk-check-icon">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </span>
+            <span>Vehículos doble comando (volante y pedalera)</span>
+          </div>
+          <div class="hero-perk-item">
+            <span class="perk-check-icon">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </span>
+            <span>Servicio puerta a puerta en tu domicilio</span>
+          </div>
+          <div class="hero-perk-item">
+            <span class="perk-check-icon">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </span>
+            <span>Seguro coche escuela de máxima cobertura</span>
+          </div>
+          <div class="hero-perk-item">
+            <span class="perk-check-icon">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </span>
+            <span>Acompañamiento a examen práctico en CPC</span>
+          </div>
+        </div>
+
+        <div class="hero-actions-row">
+          <a href="#asistente" class="btn btn-red btn-hero-cta">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+            <span class="text-desktop">Consultar con Asistente WhatsApp (3516544950)</span>
+            <span class="text-mobile">Asistente WhatsApp</span>
+          </a>
+          <a href="#palanca" class="btn btn-white-outline btn-hero-cta">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+            <span class="text-desktop">Probar Palanca de Cambios</span>
+            <span class="text-mobile">Simulador Palanca</span>
+          </a>
+        </div>
+
+        <div class="hero-schedule-bar">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          <span><strong>Horarios de atención:</strong> Lunes a Viernes de 9:00 a 20:00 hs | Sábados de 9:00 a 13:00 hs</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. PALANCA DE CAMBIOS INTERACTIVA (SIMULADOR DE MARCHAS) -->
+  <section class="shifter-section" id="palanca">
+    <div class="container">
+      
+      <div class="section-header">
+        <div class="section-tag">Simulador Interactivo de Conducción</div>
+        <h2 class="section-title">Palanca de Cambios: Tu Ruta de Aprendizaje</h2>
+        <p class="section-subtitle">
+          Hacé clic o arrastrá las marchas (1ª a 5ª y Reversa) para escuchar el acople de la caja y descubrir las etapas pedagógicas que dominarás con Autonomy.
+        </p>
+      </div>
+
+      <!-- Consola de la Palanca -->
+      <div class="shifter-console-card">
+        
+        <!-- Panel Izquierdo: Bisel de la Caja H -->
+        <div class="shifter-gate-panel">
+          <button class="shifter-audio-toggle" id="shifterAudioToggle" title="Activar/Desactivar sonido mecánico">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+            <span>Sonido: ON</span>
+          </button>
+
+          <div class="shifter-bezel">
+            <!-- Guías de la caja en H (Ranuras fresadas en metal) -->
+            <svg class="gear-gate-svg" viewBox="0 0 200 200">
+              <!-- Ranura central neutra horizontal -->
+              <line x1="36" y1="100" x2="164" y2="100" class="gate-slot-line" />
+              <!-- Columna 1-2 -->
+              <line x1="36" y1="30" x2="36" y2="170" class="gate-slot-line" />
+              <!-- Columna 3-4 -->
+              <line x1="100" y1="30" x2="100" y2="170" class="gate-slot-line" />
+              <!-- Columna 5-R -->
+              <line x1="164" y1="30" x2="164" y2="170" class="gate-slot-line" />
+            </svg>
+
+            <!-- Nodos interactivos de cambio de marcha -->
+            <div class="gear-nodes">
+              <div class="gear-node" data-gear="1" title="Poner 1ª Marcha">1</div>
+              <div class="gear-node" data-gear="3" title="Poner 3ª Marcha">3</div>
+              <div class="gear-node" data-gear="5" title="Poner 5ª Marcha">5</div>
+
+              <div class="gear-node" data-gear="N" title="Punto Muerto (Neutro)">N</div>
+
+              <div class="gear-node" data-gear="2" title="Poner 2ª Marcha">2</div>
+              <div class="gear-node" data-gear="4" title="Poner 4ª Marcha">4</div>
+              <div class="gear-node" data-gear="R" title="Poner Marcha Atrás">R</div>
+            </div>
+
+            <!-- Bocha física de la palanca -->
+            <div class="shifter-knob" id="shifterKnob"></div>
+          </div>
+
+          <div class="shifter-controls-hint">
+            Seleccioná cualquier marcha para experimentar el cambio
+          </div>
+
+          <button class="shifter-demo-btn" id="shifterDemoBtn">
+            ▶ Modo Demostración Automática
+          </button>
+        </div>
+
+        <!-- Panel Derecho: Telemetría y Contenido de la Etapa -->
+        <div class="shifter-display-panel">
+          
+          <div class="display-top-bar">
+            <div class="current-gear-indicator">
+              <div class="gear-badge-large" id="displayGearBadge">1</div>
+              <div class="gear-title-meta">
+                <span class="label">Marcha Acoplada</span>
+                <span class="name" id="displayGearName">1ª Marcha • Punto de Partida</span>
+              </div>
+            </div>
+
+            <div class="telemetry-row">
+              <div class="telemetry-stat">
+                <div class="val" id="displaySpeed">15</div>
+                <div class="unit">KM/H Sugerido</div>
+              </div>
+              <div class="telemetry-stat">
+                <div class="val" id="displayRpm">1800</div>
+                <div class="unit">RPM Óptimo</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Información Pedagógica Dinámica -->
+          <div class="gear-stage-content">
+            <span class="stage-header-badge" id="stageHeaderBadge">Fase Inicial • Dominio de Pedales</span>
+            <h3 class="stage-headline" id="stageHeadline">Arranque Suave y Control de Embrague con Doble Comando</h3>
+            <p class="stage-description" id="stageDescription">
+              El paso fundamental donde perdés el miedo. Aprendés a encontrar el punto exacto de fricción del embrague sin que el auto tironee ni se apague. Para tu tranquilidad total, nuestros autos cuentan con pedalera y volante doble comando: el instructor siempre te respalda.
+            </p>
+            <ul class="stage-skills-list" id="stageSkillsList">
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Coordinación embrague y acelerador
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Arranque en plano y pendientes
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Salidas sin sobresaltos ni tirones
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Respaldo total con doble pedalera
+              </li>
+            </ul>
+          </div>
+
+          <!-- Acciones -->
+          <div class="display-footer-actions">
+            <span class="display-footer-note">Vehículos equipados con caja manual y doble comando para máxima seguridad</span>
+            <a href="#asistente" class="btn btn-red">
+              <span>Coordinar Esta Clase</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 5. SECCIÓN INFO IMPORTANTE CON FONDO ROJO (REQUERIMIENTO ESTRICTO) -->
+  <section class="important-info-section" id="info-importante">
+    <div class="container">
+      
+      <div class="info-red-header">
+        <div class="info-red-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M11 5L6 9H2v6h4l5 4V5z"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
+          Información Importante
+        </div>
+        <h2 class="info-red-title">¿Estás pensando en aprender a manejar?</h2>
+        <p class="info-red-subtitle">
+          TE CONTAMOS POR QUÉ EN AUTONOMY SOMOS TU MEJOR OPCIÓN EN CÓRDOBA
+        </p>
+      </div>
+
+      <!-- Los 4 Pilares Fundamentales (Basados exactamente en Imagen 3) -->
+      <div class="info-pillars-grid">
+        <div class="pillar-card">
+          <div class="pillar-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          </div>
+          <h3 class="pillar-title">Clases teóricas</h3>
+          <p class="pillar-desc">
+            Marco normativo vigente en Córdoba, señalización vial, leyes de tránsito y nociones de mecánica preventiva para rendir tu examen sin dudas.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+          </div>
+          <h3 class="pillar-title">Prácticas en vehículos</h3>
+          <p class="pillar-desc">
+            Flota moderna equipada con doble comando de volante y pedalera. Practicás en situaciones de tránsito real con respaldo inmediato de tu instructor.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+          </div>
+          <h3 class="pillar-title">Aprendizaje a tu ritmo</h3>
+          <p class="pillar-desc">
+            Sin presiones ni apuros. Cursos adaptados a tu evolución personal, paciencia absoluta y enfoque prioritario en la superación de temores al volante.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <h3 class="pillar-title">Consejos y trucos</h3>
+          <p class="pillar-desc">
+            Secretos profesionales para estacionar en 2 maniobras, dominar la subida en pendientes y superar la prueba práctica en el CPC sin sobresaltos.
+          </p>
+        </div>
+      </div>
+
+      <!-- Diferenciales y Regla Fundamental del Conductor (Basada en Imagen 2) -->
+      <div class="info-features-container">
+        
+        <div class="info-bullets-card">
+          <h3 class="info-bullets-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><shield x="12" y="12"></shield><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            ¿Por qué elegir Autonomy en Córdoba?
+          </h3>
+          <ul class="info-bullets-list">
+            <li class="info-bullet-item">
+              <span class="info-bullet-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+              <span><strong>Vehículos doble comando de volante y pedalera:</strong> Seguridad activa garantizada en cada minuto de práctica.</span>
+            </li>
+            <li class="info-bullet-item">
+              <span class="info-bullet-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+              <span><strong>Seguro coche escuela:</strong> Cobertura reglamentaria completa tanto para el alumno como para terceros.</span>
+            </li>
+            <li class="info-bullet-item">
+              <span class="info-bullet-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+              <span><strong>Instructores altamente capacitados, pacientes y profesionales:</strong> Trato cálido y método pedagógico comprobado.</span>
+            </li>
+            <li class="info-bullet-item">
+              <span class="info-bullet-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+              <span><strong>Cursos a tu medida:</strong> Flexibilidad total de horarios, de Lunes a Viernes de 9 a 20 y Sábados de 9 a 13 hs.</span>
+            </li>
+            <li class="info-bullet-item">
+              <span class="info-bullet-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+              <span><strong>Acompañamiento a tramitar la licencia a un CPC:</strong> Te preparamos y te facilitamos el vehículo el día del examen.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Tarjeta de la Regla Fundamental (Imagen 2) -->
+        <div class="fundamental-rule-card">
+          <div class="rule-header">
+            <div class="rule-star-tag">
+              REGLA DE ORO VIAL
+            </div>
+            <h3 class="rule-main-title">REGLA FUNDAMENTAL</h3>
+            <span class="rule-badge-red">DEL CONDUCTOR</span>
+          </div>
+
+          <div class="rule-quote-box">
+            <p class="rule-quote-text">
+              "El conductor debe mantener <strong>dominio efectivo del vehículo</strong> en todo momento y priorizar la <strong>seguridad de las personas</strong> por sobre cualquier otro valor o riesgo."
+            </p>
+          </div>
+
+          <div class="rule-footer-meta">
+            <span style="font-size: 0.85rem; color: var(--color-text-muted); font-weight: 600;">Premisa central impartida en Autonomy</span>
+            <a href="https://instagram.com/autonomy.manejo" target="_blank" rel="noopener noreferrer" class="rule-instagram-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              <span>@autonomy.manejo</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 6. CURSOS Y CLASES DE MANEJO (FONDO BLANCO) -->
+  <section class="courses-section" id="cursos">
+    <div class="container">
+      
+      <div class="section-header">
+        <div class="section-tag">Programas de Formación</div>
+        <h2 class="section-title">Cursos Adaptados a Tu Nivel</h2>
+        <p class="section-subtitle">
+          Planes diseñados para que ganes seguridad al volante desde la primera clase, con el respaldo de 13 años de experiencia en Córdoba.
+        </p>
+      </div>
+
+      <div class="courses-grid">
+        
+        <!-- Curso 1 -->
+        <div class="course-card">
+          <div>
+            <span class="course-badge">El Más Elegido</span>
+            <h3 class="course-title">Curso Inicial desde Cero</h3>
+            <p class="course-desc">
+              Pensado especialmente para quienes nunca se sentaron frente a un volante o sienten inseguridad. Aprendé sin presiones con la pedalera doble comando.
+            </p>
+            <ul class="course-features-list">
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Postura correcta y conocimiento de mandos
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Embrague, frenado suave y aceleración
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Circulación en zonas de bajo tránsito
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Servicio puerta a puerta disponible
+              </li>
+            </ul>
+          </div>
+          <a href="#asistente" class="btn btn-outline-dark">Consultar Este Curso</a>
+        </div>
+
+        <!-- Curso 2 (Destacado) -->
+        <div class="course-card featured">
+          <div>
+            <span class="course-badge">Tránsito Real</span>
+            <h3 class="course-title">Perfeccionamiento y Avenidas</h3>
+            <p class="course-desc">
+              Si ya tenés carnet o sabés lo básico pero te paraliza salir a avenidas transitadas como Rafael Núñez o Colón, este módulo es para vos.
+            </p>
+            <ul class="course-features-list">
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Fluidez y cambios de carril en avenidas
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Manejo defensivo en hora pico
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Rotondas complejas y semáforos múltiples
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Control emocional y serenidad al volante
+              </li>
+            </ul>
+          </div>
+          <a href="#asistente" class="btn btn-red">Consultar Este Curso</a>
+        </div>
+
+        <!-- Curso 3 -->
+        <div class="course-card">
+          <div>
+            <span class="course-badge">Trámite Oficial</span>
+            <h3 class="course-title">Acompañamiento a CPC</h3>
+            <p class="course-desc">
+              Preparación técnica específica para aprobar el examen práctico en el Centro de Participación Comunal (CPC) de Córdoba Capital.
+            </p>
+            <ul class="course-features-list">
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Circuito idéntico a la prueba de manejo
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Estacionamiento paralelo y conos
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Vehículo escuela habilitado para rendir
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Instructor acompañante durante la jornada
+              </li>
+            </ul>
+          </div>
+          <a href="#asistente" class="btn btn-outline-dark">Consultar Este Curso</a>
+        </div>
+
+      </div>
+
+      <!-- Banner Puerta a Puerta -->
+      <div class="puerta-puerta-banner" id="puerta-a-puerta">
+        <div>
+          <span class="badge badge-white-red" style="margin-bottom: 0.75rem;">Comodidad Total</span>
+          <h3 class="banner-title">Servicio Puerta a Puerta en Córdoba</h3>
+          <p class="banner-desc">
+            Te pasamos a buscar por tu casa, departamento o lugar de trabajo y finalizamos la clase en el mismo punto. Ahorrá tiempo y aprendé desde tu propia zona geográfica habitual.
+          </p>
+          <div class="banner-coverage-tags">
+            <span class="coverage-tag">Cerro de las Rosas</span>
+            <span class="coverage-tag">Urca</span>
+            <span class="coverage-tag">Argüello</span>
+            <span class="coverage-tag">Villa Belgrano</span>
+            <span class="coverage-tag">Alto Verde</span>
+            <span class="coverage-tag">Alta Córdoba</span>
+            <span class="coverage-tag">Nueva Córdoba</span>
+            <span class="coverage-tag">Centro</span>
+            <span class="coverage-tag">Consultar por tu barrio</span>
+          </div>
+        </div>
+        <div style="text-align: center;">
+          <a href="#asistente" class="btn btn-red" style="padding: 1rem 1.75rem;">
+            <span>Solicitar Puerta a Puerta</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 7. ASISTENTE INTELIGENTE WHATSAPP (3516544950) -->
+  <section class="assistant-section" id="asistente">
+    <div class="container">
+      
+      <div class="assistant-wrapper">
+        
+        <!-- Cuestionario Guiado -->
+        <div class="assistant-interactive-col">
+          <span class="assistant-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+            Asistente Inteligente Directo
+          </span>
+          <h2 class="assistant-title">Armá tu Consulta Personalizada</h2>
+          <p class="assistant-intro">
+            Seleccioná tus preferencias y nuestro asistente generará el mensaje exacto para enviar al WhatsApp oficial de Córdoba <strong>3516544950</strong>.
+          </p>
+
+          <!-- Paso 1: Tipo de Curso -->
+          <div class="step-group">
+            <div class="step-label">
+              <span class="step-number">1</span>
+              <span>¿Qué tipo de curso necesitás?</span>
+            </div>
+            <div class="option-buttons-grid">
+              <button type="button" class="option-btn option-course selected" data-value="Curso Inicial (Desde Cero)">
+                Inicial (Desde Cero)
+              </button>
+              <button type="button" class="option-btn option-course" data-value="Perfeccionamiento y Tránsito Pesado">
+                Perfeccionamiento y Avenidas
+              </button>
+              <button type="button" class="option-btn option-course" data-value="Práctica de Estacionamiento">
+                Estacionamiento y Maniobras
+              </button>
+              <button type="button" class="option-btn option-course" data-value="Acompañamiento a Examen en CPC">
+                Acompañamiento a CPC
+              </button>
+            </div>
+          </div>
+
+          <!-- Paso 2: Servicio Puerta a Puerta -->
+          <div class="step-group">
+            <div class="step-label">
+              <span class="step-number">2</span>
+              <span>¿Querés servicio Puerta a Puerta en tu barrio?</span>
+            </div>
+            <div class="option-buttons-grid" style="margin-bottom: 0.75rem;">
+              <button type="button" class="option-btn option-service selected" data-value="Servicio Puerta a Puerta en Domicilio">
+                Sí, buscarme por mi domicilio
+              </button>
+              <button type="button" class="option-btn option-service" data-value="Inicio en Sede Av. Rafael Núñez 3593">
+                Prefiero iniciar en sede Rafael Núñez
+              </button>
+            </div>
+            <input type="text" id="assistantCustomZone" class="input-custom-field" placeholder="Escribí tu barrio o zona en Córdoba (Ej: Cerro de las Rosas, Urca, Alta Cba...)">
+          </div>
+
+          <!-- Paso 3: Horarios -->
+          <div class="step-group">
+            <div class="step-label">
+              <span class="step-number">3</span>
+              <span>¿En qué franja horaria te gustaría cursar?</span>
+            </div>
+            <div class="option-buttons-grid">
+              <button type="button" class="option-btn option-schedule selected" data-value="Lunes a Viernes de 9:00 a 20:00 (A convenir)">
+                Lun a Vie (9:00 a 20:00 hs)
+              </button>
+              <button type="button" class="option-btn option-schedule" data-value="Sábados por la mañana (9:00 a 13:00 hs)">
+                Sábados (9:00 a 13:00 hs)
+              </button>
+            </div>
+          </div>
+
+          <!-- Paso 4: Tu Nombre -->
+          <div class="step-group">
+            <div class="step-label">
+              <span class="step-number">4</span>
+              <span>¿Cómo te llamás? (Opcional)</span>
+            </div>
+            <input type="text" id="assistantUserName" class="input-custom-field" placeholder="Ingresá tu nombre para una atención más ágil">
+          </div>
+
+        </div>
+
+        <!-- Previsualización Estilo WhatsApp -->
+        <div class="assistant-preview-col">
+          <div>
+            <div class="wa-preview-header">
+              <img src="assets/logo.png" alt="Autonomy Logo" class="wa-avatar">
+              <div>
+                <div class="wa-info-title">Autonomy Escuela de Manejo</div>
+                <div class="wa-info-phone">+54 9 351 654-4950 • En línea</div>
+              </div>
+            </div>
+
+            <div class="wa-bubble-preview" id="whatsappLivePreview">
+              <!-- El contenido dinámico se inyecta desde app.js -->
+            </div>
+          </div>
+
+          <div>
+            <a href="https://wa.me/5493516544950" id="btnSendWhatsapp" target="_blank" rel="noopener noreferrer" class="btn-send-whatsapp-final">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+              <span>Enviar Consulta a WhatsApp</span>
+            </a>
+            <div class="wa-guarantee-note">
+              Atención inmediata en horario comercial • Respuesta en el día
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 8. UBICACIÓN Y HORARIOS (FONDO BLANCO) -->
+  <section class="location-section" id="ubicacion">
+    <div class="container location-grid">
+      
+      <div class="location-details-card">
+        <span class="badge badge-red" style="margin-bottom: 0.75rem;">Sede Oficial</span>
+        <h2 class="location-title">Estamos en Zona Norte de Córdoba</h2>
+        
+        <div class="location-address-row">
+          <div class="loc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          </div>
+          <div class="loc-text">
+            <h4>Av. Rafael Núñez 3593</h4>
+            <p>Córdoba Capital, Argentina (Zona Cerro de las Rosas)</p>
+          </div>
+        </div>
+
+        <!-- Horarios oficiales -->
+        <div class="hours-box">
+          <h5>Horarios de Atención y Clases</h5>
+          <div class="hours-row">
+            <span class="day">Lunes a Viernes:</span>
+            <span class="time">09:00 a 20:00 hs</span>
+          </div>
+          <div class="hours-row">
+            <span class="day">Sábados:</span>
+            <span class="time">09:00 a 13:00 hs</span>
+          </div>
+          <div class="hours-row" style="color: var(--color-text-muted);">
+            <span class="day">Domingos y Feriados:</span>
+            <span>Cerrado</span>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 0.85rem; flex-wrap: wrap;">
+          <a href="https://www.google.com/maps/place/Escuela+de+manejo+Autonomy/@-31.3780204,-64.2250891,15z" target="_blank" rel="noopener noreferrer" class="btn btn-dark">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
+            <span>Abrir en Google Maps</span>
+          </a>
+          <a href="https://instagram.com/autonomy.manejo" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            <span>@autonomy.manejo</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Mapa Embebido de Google Maps -->
+      <div class="location-map-frame">
+        <iframe 
+          title="Ubicación Escuela de Manejo Autonomy Córdoba"
+          src="https://maps.google.com/maps?q=-31.3780204,-64.2250891&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 9. FOOTER COLOR ROJO (REQUERIMIENTO ESTRICTO) -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- Bloque Marca -->
+        <div class="footer-brand-block">
+          <div class="footer-logo-wrap">
+            <img src="assets/logo.png" alt="Autonomy Escuela de Manejo" class="footer-logo-img">
+            <span class="footer-logo-text">AUTONOMY</span>
+          </div>
+          <p class="footer-bio">
+            Más de 13 años dedicados a formar conductores prudentes, independientes y capacitados en Córdoba Capital. 
+            Tu tranquilidad y seguridad son nuestra razón de ser.
+          </p>
+          <div style="font-size: 0.85rem; font-weight: 700; color: #ffffff;">
+            Cursos y clases de manejo • Servicio puerta a puerta
+          </div>
+        </div>
+
+        <!-- Enlaces Rápidos -->
+        <div>
+          <h4 class="footer-col-title">Navegación</h4>
+          <ul class="footer-links-list">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#palanca">Simulador de Palanca</a></li>
+            <li><a href="#info-importante">Información Importante</a></li>
+            <li><a href="#cursos">Cursos Disponibles</a></li>
+            <li><a href="#puerta-a-puerta">Servicio Puerta a Puerta</a></li>
+            <li><a href="#asistente">Asistente WhatsApp</a></li>
+          </ul>
+        </div>
+
+        <!-- Horarios Oficiales -->
+        <div>
+          <h4 class="footer-col-title">Horarios</h4>
+          <div class="footer-contact-items">
+            <p><strong>Lunes a Viernes:</strong><br>09:00 a 20:00 hs</p>
+            <p><strong>Sábados:</strong><br>09:00 a 13:00 hs</p>
+            <p style="opacity: 0.8;"><strong>Domingos:</strong> Cerrado</p>
+          </div>
+        </div>
+
+        <!-- Contacto Directo -->
+        <div>
+          <h4 class="footer-col-title">Contacto Directo</h4>
+          <div class="footer-contact-items">
+            <div class="footer-contact-row">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>Rafael Núñez 3593, Córdoba</span>
+            </div>
+            <div class="footer-contact-row">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+              <a href="https://wa.me/5493516544950" target="_blank" rel="noopener noreferrer" style="color: #ffffff; text-decoration: underline; font-weight: 700;">3516544950</a>
+            </div>
+            <div class="footer-contact-row">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              <a href="https://instagram.com/autonomy.manejo" target="_blank" rel="noopener noreferrer" style="color: #ffffff;">@autonomy.manejo</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>
+          © 2026 Autonomy Escuela de Manejo • 13 Años Formando Conductores en Córdoba Capital.
+        </div>
+        <div>
+          "Respira libertad! Aprendé a manejar con nosotros"
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón Flotante Directo de WhatsApp -->
+  <a href="https://wa.me/5493516544950?text=Hola%20Autonomy!%20Quisiera%20consultar%20por%20clases%20de%20manejo" target="_blank" rel="noopener noreferrer" class="floating-wa-btn" title="Chatear por WhatsApp">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+    <span>WhatsApp 3516544950</span>
+  </a>
+
+  <script src="app.js"></script>
+</body>
+</html>
